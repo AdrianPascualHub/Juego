@@ -1,67 +1,17 @@
-<!doctype html>
-
-<html lang="en">
+<link href="http://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet">
 <head>
-  <meta charset="utf-8">
-  <title>Conecta4Puntos</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-  <h3>El jugador actual es: Jugador <span id="current-player">1</span></h3>
-  <h3 id="result"></h3>
-
-  <div class="grid">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div class="taken"></div>
-    <div class="taken"></div>
-    <div class="taken"></div>
-    <div class="taken"></div>
-    <div class="taken"></div>
-    <div class="taken"></div>
-    <div class="taken"></div>
+<div class="container">
+  <div class="menu">
+    <button class="btn-minecraft" onclick="location.href = 'juegos/juego1/juego1.html';">Juego 1</button>
+    <button class="btn-minecraft" onclick="location.href = 'juegos/juego2/juego2.html';">Juego 2</button>
+    <button class="btn-minecraft" onclick="location.href = 'juegos/juego3/juego3.html';">Juego 3</button>
   </div>
-
-</body>
-</html>
+  <div class="menu-options">
+    <button class="btn-minecraft" onclick="showPicture()">By Adri</button>
+    <img id="image" src="fotos/IMG_2975.png" style="display:none;" width="350" height="350"/>
+    <button class="btn-minecraft" onclick="self.close()">Quit</button>
+  </div>
+</div>
+<script src="js/script.js"></script>
